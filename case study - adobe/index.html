@@ -118,8 +118,10 @@ nav {
   font-weight: 300;
 }
 
+/* ══ PAGE WRAPPER ══ */
+.page-wrap { max-width: 1200px; margin: 0 auto; }
+
 /* ══ LAYOUT ══ */
-.wrap { max-width: 1200px; margin: 0 auto; }
 section { padding: 96px 64px; }
 .alt-section { background: var(--white); }
 hr.div { border: none; border-top: 1px solid var(--border); }
@@ -757,6 +759,7 @@ footer p { font-size: 12px; color: var(--gray2); }
 </style>
 </head>
 <body>
+<div class="page-wrap">
 
 <!-- ══ NAV ══ -->
 <nav>
@@ -1211,6 +1214,7 @@ footer p { font-size: 12px; color: var(--gray2); }
   <p>Galaxy Canvas AI · UX Case Study · Team 58 · Adobe TechMeet</p>
   <p>omfolio.framer.website</p>
 </footer>
+</div><!-- /.page-wrap -->
 
 <script>
   const els = document.querySelectorAll('.fade-up');
